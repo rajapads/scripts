@@ -11,5 +11,3 @@ machine:
 test:
   override:
     - ruby ./test_script.rb
-    - git init
-    - git clone git://github.com/rajapads/scripts
