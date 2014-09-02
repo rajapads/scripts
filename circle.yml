@@ -1,0 +1,13 @@
+machine:
+
+  timezone:
+    America/Los_Angeles # Set the timezone
+
+  # Version of ruby to use
+  ruby:
+    version: 1.9.3-p0-falcon
+    
+    
+test:
+  override:
+    - ruby ./test_script.rb
